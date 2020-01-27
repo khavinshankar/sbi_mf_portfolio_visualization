@@ -15,11 +15,13 @@ div {
   margin-top: 25px;
 }
 
-.right {
-  position: absolute;
-  right: 0px;
-  max-width: 30%;
-  padding: 10px;
+@media screen and (min-width: 82em) {
+  .right {
+    position: absolute;
+    right: 0px;
+    max-width: 30%;
+    padding: 10px;
+  }
 }
 
 #legends span {
@@ -45,23 +47,8 @@ div {
   z-index: 3;
 }
 
-/* .custom-tip:after {
-      box-sizing: border-box;
-      display: inline;
-      width: 100%;
-      line-height: 1;
-      color: #EDE3D1;
-      content: "\25BC";
-      position: absolute;
-      text-align: center;
-      margin: -3px 0 0 0;
-      top: 100%;
-      left: 0;
-    } */
-
 .custom-tip span {
   display: block;
-
   width: auto;
   height: auto;
   margin: 0;
@@ -130,8 +117,8 @@ div {
 }
 
 .outer-margin {
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 #intro p {
